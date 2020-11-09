@@ -1,0 +1,33 @@
+* {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.slide-item {
+  padding: 40px 60px;
+}
+.browse {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  color: #ff8a00;
+  cursor: pointer;
+  font-weight: 600;
+}
+.slide-container {
+  background-image: url(./images/Rectangle\ 92.png);
+  max-width: 100%;
+}
+.prev-btn {
+  background-color: #ff9318;
+}
+.next-btn {
+  border: none;
+  background-color: #ff9318;
+}
+.left-item h1 {
+  color: white;
+}
+.text-slide {
+  color: white !important;
+}
