@@ -4,7 +4,6 @@ import firstSlider from "./images/hero-image 1.png";
 import nextButton from "./images/next-btn.png";
 import prevButton from "./images/prev-btn.png";
 import secondSlider from "./images/slider3.png";
-import thirdSlider from "./images/slider2.png";
 import './Slidebar.css';
 
 const Slidebar = () => {
@@ -68,34 +67,6 @@ const Slidebar = () => {
                 <img
                 className="d-block w-100 slide-image"
                 src={secondSlider}
-                alt="First slide"
-                />
-            </div>
-        </div>
-      </Carousel.Item>
-      <Carousel.Item className="slide-item">
-      <div className="row">
-            <div className="col-md-7 left-item">
-                <h1>Learn from anywhere, <br/> anytime</h1>
-                <p className="text-slide">Learn your favorite subject, build your skills. <br/>
-                Enroll online assignment for world-class instructors.</p>
-                <br/>
-                <br/>
-                <button className="browse"> Browse All Subject</button>
-                <br/>
-                <br/>
-                <button activeIndex={index} onSelect={handleSelect}  className="next-btn">
-                    <img src={prevButton} alt=""/>
-                </button>
-                
-                <button activeIndex={index} onSelect={handleSelect} className="next-btn">
-                    <img src={nextButton} alt=""/>
-                </button>
-            </div>
-            <div className="col-md-5">
-                <img
-                className="d-block w-100 slide-image"
-                src={thirdSlider}
                 alt="First slide"
                 />
             </div>
