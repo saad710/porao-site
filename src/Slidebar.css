@@ -3,7 +3,7 @@
   margin-right: 0px;
 }
 .slide-item {
-  padding: 40px 60px;
+  padding: 60px 80px;
 }
 .browse {
   padding: 10px 20px;
@@ -20,6 +20,7 @@
 }
 .prev-btn {
   background-color: #ff9318;
+  border: none;
 }
 .next-btn {
   border: none;
@@ -30,4 +31,9 @@
 }
 .text-slide {
   color: white !important;
+}
+.slide-image {
+  height: 430px;
+}
+.control-slider {
 }

@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import firstSlider from "./images/hero-image 1.png";
 import nextButton from "./images/next-btn.png";
 import prevButton from "./images/prev-btn.png";
+import secondSlider from "./images/slider3.png";
+import thirdSlider from "./images/slider2.png";
 import './Slidebar.css';
 
 const Slidebar = () => {
@@ -14,7 +16,7 @@ const Slidebar = () => {
         }
     return (
 <div className="slide-container">
-    <Carousel activeIndex={index} onSelect={handleSelect} indicators={false} interval={7000} > 
+    <Carousel activeIndex={index} onSelect={handleSelect} nextIcon={false} prevIcon={false} indicators={false} interval={7000} > 
       <Carousel.Item className="slide-item">
       <div className="row">
             <div className="col-md-7 left-item">
@@ -36,7 +38,7 @@ const Slidebar = () => {
             </div>
             <div className="col-md-5">
                 <img
-                className="d-block w-100"
+                className="d-block w-100 slide-image"
                 src={firstSlider}
                 alt="First slide"
                 />
@@ -64,8 +66,8 @@ const Slidebar = () => {
             </div>
             <div className="col-md-5">
                 <img
-                className="d-block w-100"
-                src={firstSlider}
+                className="d-block w-100 slide-image"
+                src={secondSlider}
                 alt="First slide"
                 />
             </div>
@@ -82,7 +84,7 @@ const Slidebar = () => {
                 <button className="browse"> Browse All Subject</button>
                 <br/>
                 <br/>
-                <button activeIndex={index} onSelect={handleSelect} className="next-btn">
+                <button activeIndex={index} onSelect={handleSelect}  className="next-btn">
                     <img src={prevButton} alt=""/>
                 </button>
                 
@@ -92,8 +94,8 @@ const Slidebar = () => {
             </div>
             <div className="col-md-5">
                 <img
-                className="d-block w-100"
-                src={firstSlider}
+                className="d-block w-100 slide-image"
+                src={thirdSlider}
                 alt="First slide"
                 />
             </div>
