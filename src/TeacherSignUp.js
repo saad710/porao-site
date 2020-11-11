@@ -36,7 +36,9 @@ const TeacherSignUp = () => {
                                     <option>Chemestry</option>
                                     <option>Biology</option>
                                 </select> <br/>
-                                <input className="btn btn-warning sign-up-btn" type="submit"/>
+                                <Link to="/verifyOtp">
+                                <input className="btn btn-warning sign-up-btn" type="submit" value="Sign Up"/>
+                                </Link>
                             </form>
                             <br/>
                             <div className="or">
@@ -67,7 +69,7 @@ const TeacherSignUp = () => {
                             </div>
                             <br/>
                             <div className="back-login" style={{textAlign: 'center'}}>
-                                <p>Already have an account? <span><a className="sign-btn-back" style={{textDecoration: 'none'}} href="/login">Login</a></span></p>
+                                <p>Already have an account? <span><a className="sign-btn-back" style={{textDecoration: 'none'}} href="/teacherLogin">Login</a></span></p>
                             </div>
                         </div>
                     </div>

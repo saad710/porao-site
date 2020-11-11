@@ -1,0 +1,49 @@
+.otp-container {
+  background-image: url(./images/sign-up-user.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: auto;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+.top-logo-otp {
+  width: 140px;
+  height: 70px;
+  margin-left: 20px;
+}
+.mid-content-otp {
+  margin-left: 30px;
+}
+.otp-img {
+  width: 460px !important;
+  height: 340px !important;
+  padding-top: 40px;
+  padding-left: 20px;
+  margin-top: 120px;
+}
+.otp-field-container {
+  width: 200px;
+}
+.input-otp {
+  height: 50px !important;
+  width: 60px !important;
+}
+.otp-field {
+  margin-right: 8px !important;
+}
+.input-otp::placeholder {
+  color: #ff8a00 !important;
+  opacity: 1 !important;
+
+  font-weight: 500;
+  padding-left: 12px;
+}
+.verify-btn {
+  width: 140px;
+  background-color: #ff8a00 !important;
+  border-radius: 5px;
+}
+.otp-verification {
+  padding-top: 80px;
+}

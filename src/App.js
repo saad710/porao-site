@@ -9,6 +9,8 @@ import {
 import NoMatch from './NoMatch';
 import SignUpUser from './SignUpUser';
 import TeacherSignUp from './TeacherSignUp';
+import VerifyOtp from './VerifyOtp';
+import TeacherLogin from './TeacherLogin';
 
 function App() {
   return (
@@ -23,6 +25,12 @@ function App() {
         </Route> 
         <Route path = "/teacherSignUp">
           <TeacherSignUp/>
+        </Route>
+        <Route path = "/verifyOtp">
+          <VerifyOtp/>
+        </Route>
+        <Route path = "/teacherLogin">
+          <TeacherLogin/>
         </Route>     
         <Route exact path = "/">
           <Home/>
