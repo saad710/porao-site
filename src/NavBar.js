@@ -5,6 +5,7 @@ import grid from "./images/grid.png";
 import cart from "./images/Add to cart.png";
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import SearchIcon from '@material-ui/icons/Search';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -34,10 +35,10 @@ const NavBar = () => {
                 <img className="cart-image" src={cart} alt=""/>
             </div>
             <div className="header-end">
-                <a className="btn-header" href=""> Sign up </a>
+                <a className="btn-header" href="/signup"> Sign up </a>
             </div>
             <div className="header-end">
-                <a className="btn-header" href=""> Log in </a>
+                <a className="btn-header" href="/login"> Log in </a>
             </div>
           </div>
         </Navbar.Collapse>

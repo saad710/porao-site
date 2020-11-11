@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import firstSlider from "./images/hero-image 1.png";
 import nextButton from "./images/next-btn.png";
 import prevButton from "./images/prev-btn.png";
-import secondSlider from "./images/slider3.png";
+import secondSlider from "./images/slider3-removebg-preview.png";
 import './Slidebar.css';
 
 const Slidebar = () => {
@@ -57,8 +57,7 @@ const Slidebar = () => {
                 <br/>
                 <button activeIndex={index} onSelect={handleSelect} className="next-btn">
                     <img src={prevButton} alt=""/>
-                </button>
-                
+                </button>        
                 <button activeIndex={index} onSelect={handleSelect} className="next-btn">
                     <img src={nextButton} alt=""/>
                 </button>
@@ -72,6 +71,7 @@ const Slidebar = () => {
             </div>
         </div>
       </Carousel.Item>
+
     </Carousel>
             
 </div>

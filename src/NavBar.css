@@ -68,11 +68,14 @@
   border-radius: 100px;
   padding: 15px 35px;
   font-size: 15px;
-}
-.header-end a {
+  font-weight: 600;
   text-decoration: none;
+}
+a.btn-header {
+  text-decoration: none !important;
   color: white;
 }
+
 .right-header {
   margin-right: 40px;
 }
