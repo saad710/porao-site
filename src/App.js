@@ -11,6 +11,7 @@ import SignUpUser from './SignUpUser';
 import TeacherSignUp from './TeacherSignUp';
 import VerifyOtp from './VerifyOtp';
 import TeacherLogin from './TeacherLogin';
+import TeacherDashboard from './TeacherDashboard';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path = "/teacherLogin">
           <TeacherLogin/>
+        </Route> 
+        <Route path = "/teacherDashboard">
+          <TeacherDashboard/>
         </Route>     
         <Route exact path = "/">
           <Home/>
