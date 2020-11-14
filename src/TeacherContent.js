@@ -13,25 +13,25 @@ import {
 
   const lineData = [
     {
-      name: '1', USD: 0,
+        name: '1', USD: 0,
     },
     {
-      name: '2', USD: 0.1,
+        name: '2', USD: 0.1,
     },
     {
-      name: '3', USD: 0.2,
+        name: '3', USD: 0.2,
     },
     {
-      name: '4', USD: 0.2,
+        name: '4', USD: 0.2,
     },
     {
-      name: '5', USD: 0.3,
+        name: '5', USD: 0.3,
     },
     {
-      name: '6', USD: 0.4,
+        name: '6', USD: 0.4,
     },
     {
-      name: '7', USD: 0.4,
+        name: '7', USD: 0.4,
     },
     {
         name: '8', USD: 0.3,
@@ -106,12 +106,9 @@ import {
   ];
 
   const data = [
-    { name: 'Group A', value: 400 },
-    { name: 'Group B', value: 300 },
-    { name: 'Group C', value: 300 },
-    { name: 'Group D', value: 200 },
+    { name: 'Group A', value: 400 }
   ];
-  const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+  const COLORS = ["#ff8a00"];
   
 const TeacherContent = () => {
     return (
@@ -166,7 +163,7 @@ const TeacherContent = () => {
                                 innerRadius={60}
                                 outerRadius={80}
                                 fill="#8884d8"
-                                paddingAngle={5}
+                                paddingAngle={0}
                                 dataKey="value"
                             >
                                 {
